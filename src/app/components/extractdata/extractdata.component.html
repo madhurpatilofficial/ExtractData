@@ -1,0 +1,5 @@
+<input type="file" (change)="onFileSelected($event)">
+<div *ngIf="extractedText">
+  <h2>Extracted Text:</h2>
+  <pre>{{ extractedText }}</pre>
+</div>
